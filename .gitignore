@@ -136,3 +136,4 @@ scratch/
 # MLCube
 workspace/*
 !workspace/parameters.yaml
+data/

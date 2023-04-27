@@ -36,6 +36,10 @@ def main():
     file_name = "dataperf-vision-selection-resources.zip"
 
     download_file(dataset_url, output_path, file_name)
+    FILEID=1vcahjqKEosjnHzxAgr5fDUf7RTWKGU39
+    FILENAME=file.zip
+    download_cmd = "wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate "https://docs.google.com/uc?export=download&id=${FILEID}" -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=${FILEID}" -O $FILENAME && rm -rf /tmp/cookies.txt"
+    print("filename being downloaded is", file_name)
 
     with zipfile.ZipFile(os.path.join(output_path, file_name)) as zf:
         for member in tqdm(zf.infolist(), desc="Extracting "):
