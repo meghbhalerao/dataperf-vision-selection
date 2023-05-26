@@ -252,7 +252,7 @@ python3 main.py --setup_yaml_path 'path/to/your/custom_task_setup.yaml'
 
 ## Open Division: Online evaluation
 
-To submit your final submission, we will utilize Dynabench as our online evaluation system. Please submit to the the [Vision Dataperf task]([https://dynabench.org/tasks/vision-dataperf](https://dynabench.org/tasks/vision-selection))
+To submit your final submission, we will utilize Dynabench as our online evaluation system. Please submit to the [Vision Dataperf task](https://dynabench.org/tasks/vision-selection).
 
 
 ## Closed Division: Creating a submission
