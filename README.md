@@ -137,9 +137,9 @@ mlcube run --task=evaluate -Pdocker.build_strategy=always
 mlcube run --task=download,evaluate -Pdocker.build_strategy=always
 ```
 
-# Guidelines (beta version)
+# Guidelines v0.5
 
-For the beta version of this benchmark we will support offline and online evaluation for the open division.
+For the v0.5 of this benchmark we will support offline and online evaluation for the open division.
 
 ## Open Division: Creating a submission
 
