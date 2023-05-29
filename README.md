@@ -4,7 +4,7 @@
 
 This github repo serves as the starting point for offline evaluation of submissions for the training data selection visual benchmark. The offline evaluation can be run on both your local environment as well as a containerized image for reproducibility of score results.
 
-For a detailed summary of the a benchmark, refer to the provided [benchmark documentation](https://docs.google.com/document/d/15ACh9pNn16GjgJKVRuBHhtiIMhhRIMkd_yPjFyb9JcE/edit?usp=sharing).
+For a detailed summary of the a benchmark, refer to the provided [documentation](https://www.dataperf.org/training-set-selection-vision).
 
 *Note that permission is required to view the benchmark documentation and download the required resources. Please contact dataperf@coactive.ai to request access.*
 
@@ -137,9 +137,9 @@ mlcube run --task=evaluate -Pdocker.build_strategy=always
 mlcube run --task=download,evaluate -Pdocker.build_strategy=always
 ```
 
-# Guidelines (beta version)
+# Guidelines v0.5
 
-For the beta version of this benchmark we will support offline and online evaluation for the open division.
+For the v0.5 of this benchmark we will support offline and online evaluation for the open division.
 
 ## Open Division: Creating a submission
 
@@ -252,7 +252,7 @@ python3 main.py --setup_yaml_path 'path/to/your/custom_task_setup.yaml'
 
 ## Open Division: Online evaluation
 
-To submit your final submission, we will utilize Dynabench as our online evaluation system. Please submit to the the [Vision Dataperf task](https://dynabench.org/tasks/vision-dataperf)
+To submit your final submission, we will utilize Dynabench as our online evaluation system. Please submit to the [Vision Dataperf task](https://dynabench.org/tasks/vision-selection).
 
 
 ## Closed Division: Creating a submission
